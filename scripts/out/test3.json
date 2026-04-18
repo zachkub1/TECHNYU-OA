@@ -1,0 +1,79 @@
+{
+  "itinerary": [
+    {
+      "location": {
+        "name": "Metropolitan Museum of Art",
+        "lat": 40.7794,
+        "lng": -73.9632,
+        "address": "1000 5th Ave, New York, NY 10028",
+        "open_time": 600,
+        "close_time": 1020,
+        "visit_duration": 120,
+        "category": "museum"
+      },
+      "arrival_time": 600,
+      "departure_time": 720,
+      "transit_from_prev": null
+    },
+    {
+      "location": {
+        "name": "Guggenheim Museum",
+        "lat": 40.783,
+        "lng": -73.959,
+        "address": "1071 5th Ave, New York, NY 10128",
+        "open_time": 600,
+        "close_time": 1020,
+        "visit_duration": 90,
+        "category": "museum"
+      },
+      "arrival_time": 726,
+      "departure_time": 816,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 6
+      }
+    },
+    {
+      "location": {
+        "name": "American Museum of Natural History",
+        "lat": 40.7813,
+        "lng": -73.974,
+        "address": "200 Central Park West, New York, NY 10024",
+        "open_time": 600,
+        "close_time": 1020,
+        "visit_duration": 120,
+        "category": "museum"
+      },
+      "arrival_time": 826,
+      "departure_time": 946,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    },
+    {
+      "location": {
+        "name": "MoMA",
+        "lat": 40.7614,
+        "lng": -73.9776,
+        "address": "11 W 53rd St, New York, NY 10019",
+        "open_time": 600,
+        "close_time": 1020,
+        "visit_duration": 120,
+        "category": "museum"
+      },
+      "arrival_time": 956,
+      "departure_time": 1076,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    }
+  ],
+  "total_locations": 4,
+  "total_duration_hours": 7.93,
+  "skipped_locations": [
+    "Whitney Museum"
+  ],
+  "summary": "Your 4-stop NYC day plan:\n\n  1. Metropolitan Museum of Art  |  10:00 AM \u2013 12:00 PM\n  2. Guggenheim Museum  |  12:06 PM \u2013 1:36 PM  \u2190 walk (6 min)\n  3. American Museum of Natural History  |  1:46 PM \u2013 3:46 PM  \u2190 subway (10 min)\n  4. MoMA  |  3:56 PM \u2013 5:56 PM  \u2190 subway (10 min)"
+}

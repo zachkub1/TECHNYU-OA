@@ -1,0 +1,77 @@
+{
+  "itinerary": [
+    {
+      "location": {
+        "name": "Empire State Building",
+        "lat": 40.7484,
+        "lng": -73.9857,
+        "address": "20 W 34th St, New York, NY 10001",
+        "open_time": 480,
+        "close_time": 1320,
+        "visit_duration": 90,
+        "category": "landmark"
+      },
+      "arrival_time": 540,
+      "departure_time": 630,
+      "transit_from_prev": null
+    },
+    {
+      "location": {
+        "name": "MoMA",
+        "lat": 40.7614,
+        "lng": -73.9776,
+        "address": "11 W 53rd St, New York, NY 10019",
+        "open_time": 600,
+        "close_time": 1020,
+        "visit_duration": 120,
+        "category": "museum"
+      },
+      "arrival_time": 640,
+      "departure_time": 760,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    },
+    {
+      "location": {
+        "name": "DUMBO",
+        "lat": 40.7033,
+        "lng": -73.9881,
+        "address": "DUMBO, Brooklyn, NY 11201",
+        "open_time": 0,
+        "close_time": 1440,
+        "visit_duration": 45,
+        "category": "neighborhood"
+      },
+      "arrival_time": 779,
+      "departure_time": 824,
+      "transit_from_prev": {
+        "mode": "rideshare",
+        "time_minutes": 19
+      }
+    },
+    {
+      "location": {
+        "name": "Prospect Park",
+        "lat": 40.6602,
+        "lng": -73.969,
+        "address": "Prospect Park, Brooklyn, NY 11215",
+        "open_time": 300,
+        "close_time": 1320,
+        "visit_duration": 60,
+        "category": "park"
+      },
+      "arrival_time": 839,
+      "departure_time": 899,
+      "transit_from_prev": {
+        "mode": "rideshare",
+        "time_minutes": 15
+      }
+    }
+  ],
+  "total_locations": 4,
+  "total_duration_hours": 5.98,
+  "skipped_locations": [],
+  "summary": "Your 4-stop NYC day plan:\n\n  1. Empire State Building  |  9:00 AM \u2013 10:30 AM\n  2. MoMA  |  10:40 AM \u2013 12:40 PM  \u2190 subway (10 min)\n  3. DUMBO  |  12:59 PM \u2013 1:44 PM  \u2190 rideshare (19 min)\n  4. Prospect Park  |  1:59 PM \u2013 2:59 PM  \u2190 rideshare (15 min)"
+}

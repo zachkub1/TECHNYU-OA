@@ -1,0 +1,95 @@
+{
+  "itinerary": [
+    {
+      "location": {
+        "name": "Brooklyn Bridge Park",
+        "lat": 40.7021,
+        "lng": -73.9969,
+        "address": "334 Furman St, Brooklyn, NY 11201",
+        "open_time": 360,
+        "close_time": 1320,
+        "visit_duration": 60,
+        "category": "park"
+      },
+      "arrival_time": 540,
+      "departure_time": 600,
+      "transit_from_prev": null
+    },
+    {
+      "location": {
+        "name": "DUMBO",
+        "lat": 40.7033,
+        "lng": -73.9881,
+        "address": "DUMBO, Brooklyn, NY 11201",
+        "open_time": 0,
+        "close_time": 1440,
+        "visit_duration": 45,
+        "category": "neighborhood"
+      },
+      "arrival_time": 609,
+      "departure_time": 654,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 9
+      }
+    },
+    {
+      "location": {
+        "name": "Brooklyn Museum",
+        "lat": 40.6712,
+        "lng": -73.9636,
+        "address": "200 Eastern Pkwy, Brooklyn, NY 11238",
+        "open_time": 660,
+        "close_time": 1080,
+        "visit_duration": 90,
+        "category": "museum"
+      },
+      "arrival_time": 668,
+      "departure_time": 758,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 14
+      }
+    },
+    {
+      "location": {
+        "name": "Prospect Park",
+        "lat": 40.6602,
+        "lng": -73.969,
+        "address": "Prospect Park, Brooklyn, NY 11215",
+        "open_time": 300,
+        "close_time": 1320,
+        "visit_duration": 60,
+        "category": "park"
+      },
+      "arrival_time": 768,
+      "departure_time": 828,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    },
+    {
+      "location": {
+        "name": "Coney Island",
+        "lat": 40.5755,
+        "lng": -73.9707,
+        "address": "Coney Island, Brooklyn, NY 11224",
+        "open_time": 600,
+        "close_time": 1260,
+        "visit_duration": 120,
+        "category": "park"
+      },
+      "arrival_time": 856,
+      "departure_time": 976,
+      "transit_from_prev": {
+        "mode": "rideshare",
+        "time_minutes": 28
+      }
+    }
+  ],
+  "total_locations": 5,
+  "total_duration_hours": 7.27,
+  "skipped_locations": [],
+  "summary": "Your 5-stop NYC day plan:\n\n  1. Brooklyn Bridge Park  |  9:00 AM \u2013 10:00 AM\n  2. DUMBO  |  10:09 AM \u2013 10:54 AM  \u2190 walk (9 min)\n  3. Brooklyn Museum  |  11:08 AM \u2013 12:38 PM  \u2190 subway (14 min)\n  4. Prospect Park  |  12:48 PM \u2013 1:48 PM  \u2190 subway (10 min)\n  5. Coney Island  |  2:16 PM \u2013 4:16 PM  \u2190 rideshare (28 min)"
+}

@@ -1,0 +1,113 @@
+{
+  "itinerary": [
+    {
+      "location": {
+        "name": "Times Square",
+        "lat": 40.758,
+        "lng": -73.9855,
+        "address": "Manhattan, NY 10036",
+        "open_time": 0,
+        "close_time": 1440,
+        "visit_duration": 45,
+        "category": "landmark"
+      },
+      "arrival_time": 540,
+      "departure_time": 585,
+      "transit_from_prev": null
+    },
+    {
+      "location": {
+        "name": "Rockefeller Center",
+        "lat": 40.7587,
+        "lng": -73.9787,
+        "address": "45 Rockefeller Plaza, New York, NY 10111",
+        "open_time": 480,
+        "close_time": 1320,
+        "visit_duration": 60,
+        "category": "landmark"
+      },
+      "arrival_time": 591,
+      "departure_time": 651,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 6
+      }
+    },
+    {
+      "location": {
+        "name": "Grand Central Terminal",
+        "lat": 40.7527,
+        "lng": -73.9772,
+        "address": "89 E 42nd St, New York, NY 10017",
+        "open_time": 330,
+        "close_time": 1380,
+        "visit_duration": 30,
+        "category": "landmark"
+      },
+      "arrival_time": 659,
+      "departure_time": 689,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 8
+      }
+    },
+    {
+      "location": {
+        "name": "Bryant Park",
+        "lat": 40.7536,
+        "lng": -73.9832,
+        "address": "41st\u201342nd St, New York, NY 10018",
+        "open_time": 420,
+        "close_time": 1320,
+        "visit_duration": 30,
+        "category": "park"
+      },
+      "arrival_time": 695,
+      "departure_time": 725,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 6
+      }
+    },
+    {
+      "location": {
+        "name": "Empire State Building",
+        "lat": 40.7484,
+        "lng": -73.9857,
+        "address": "20 W 34th St, New York, NY 10001",
+        "open_time": 480,
+        "close_time": 1320,
+        "visit_duration": 90,
+        "category": "landmark"
+      },
+      "arrival_time": 732,
+      "departure_time": 822,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 7
+      }
+    },
+    {
+      "location": {
+        "name": "High Line",
+        "lat": 40.748,
+        "lng": -74.0048,
+        "address": "New York, NY 10011",
+        "open_time": 420,
+        "close_time": 1320,
+        "visit_duration": 60,
+        "category": "park"
+      },
+      "arrival_time": 832,
+      "departure_time": 892,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    }
+  ],
+  "total_locations": 6,
+  "total_duration_hours": 5.87,
+  "skipped_locations": [],
+  "summary": "Your 6-stop NYC day plan:\n\n  1. Times Square  |  9:00 AM \u2013 9:45 AM\n  2. Rockefeller Center  |  9:51 AM \u2013 10:51 AM  \u2190 walk (6 min)\n  3. Grand Central Terminal  |  10:59 AM \u2013 11:29 AM  \u2190 walk (8 min)\n  4. Bryant Park  |  11:35 AM \u2013 12:05 PM  \u2190 walk (6 min)\n  5. Empire State Building  |  12:12 PM \u2013 1:42 PM  \u2190 walk (7 min)\n  6. High Line  |  1:52 PM \u2013 2:52 PM  \u2190 subway (10 min)"
+}

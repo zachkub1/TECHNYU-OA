@@ -1,0 +1,95 @@
+{
+  "itinerary": [
+    {
+      "location": {
+        "name": "9/11 Memorial",
+        "lat": 40.7116,
+        "lng": -74.0134,
+        "address": "180 Greenwich St, New York, NY 10007",
+        "open_time": 540,
+        "close_time": 1080,
+        "visit_duration": 60,
+        "category": "memorial"
+      },
+      "arrival_time": 540,
+      "departure_time": 600,
+      "transit_from_prev": null
+    },
+    {
+      "location": {
+        "name": "Wall Street",
+        "lat": 40.7074,
+        "lng": -74.0113,
+        "address": "Wall St, New York, NY 10005",
+        "open_time": 480,
+        "close_time": 1080,
+        "visit_duration": 30,
+        "category": "landmark"
+      },
+      "arrival_time": 605,
+      "departure_time": 635,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 5
+      }
+    },
+    {
+      "location": {
+        "name": "Charging Bull",
+        "lat": 40.7055,
+        "lng": -74.0134,
+        "address": "Broadway & Morris St, New York, NY 10004",
+        "open_time": 0,
+        "close_time": 1440,
+        "visit_duration": 20,
+        "category": "landmark"
+      },
+      "arrival_time": 640,
+      "departure_time": 660,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 5
+      }
+    },
+    {
+      "location": {
+        "name": "Battery Park",
+        "lat": 40.7036,
+        "lng": -74.017,
+        "address": "Battery Pl, New York, NY 10004",
+        "open_time": 360,
+        "close_time": 1320,
+        "visit_duration": 45,
+        "category": "park"
+      },
+      "arrival_time": 665,
+      "departure_time": 710,
+      "transit_from_prev": {
+        "mode": "walk",
+        "time_minutes": 5
+      }
+    },
+    {
+      "location": {
+        "name": "Brooklyn Bridge",
+        "lat": 40.7061,
+        "lng": -73.9969,
+        "address": "Brooklyn Bridge, New York, NY 10038",
+        "open_time": 0,
+        "close_time": 1440,
+        "visit_duration": 40,
+        "category": "landmark"
+      },
+      "arrival_time": 720,
+      "departure_time": 760,
+      "transit_from_prev": {
+        "mode": "subway",
+        "time_minutes": 10
+      }
+    }
+  ],
+  "total_locations": 5,
+  "total_duration_hours": 3.67,
+  "skipped_locations": [],
+  "summary": "Your 5-stop NYC day plan:\n\n  1. 9/11 Memorial  |  9:00 AM \u2013 10:00 AM\n  2. Wall Street  |  10:05 AM \u2013 10:35 AM  \u2190 walk (5 min)\n  3. Charging Bull  |  10:40 AM \u2013 11:00 AM  \u2190 walk (5 min)\n  4. Battery Park  |  11:05 AM \u2013 11:50 AM  \u2190 walk (5 min)\n  5. Brooklyn Bridge  |  12:00 PM \u2013 12:40 PM  \u2190 subway (10 min)"
+}
